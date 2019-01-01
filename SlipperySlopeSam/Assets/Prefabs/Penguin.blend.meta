@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 42c29190a6daf5042aa2a72b9f8c70b2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BeakBottom
+    100002: BeakTop
+    100004: BezierCurve_001
+    100006: Body
+    100008: EyeL
+    100010: EyeR
+    100012: FinL
+    100014: FinR
+    100016: FlipperL
+    100018: FlipperR
+    100020: Hat
+    100022: HatFold
+    100024: Head
+    100026: Mesh
+    100028: Mesh_001
+    100030: NurbsCurve
+    100032: //RootNode
+    100034: Puff
+    100036: PupilL
+    100038: PupilR
+    100040: Tummy
+    400000: BeakBottom
+    400002: BeakTop
+    400004: BezierCurve_001
+    400006: Body
+    400008: EyeL
+    400010: EyeR
+    400012: FinL
+    400014: FinR
+    400016: FlipperL
+    400018: FlipperR
+    400020: Hat
+    400022: HatFold
+    400024: Head
+    400026: Mesh
+    400028: Mesh_001
+    400030: NurbsCurve
+    400032: //RootNode
+    400034: Puff
+    400036: PupilL
+    400038: PupilR
+    400040: Tummy
+    2100000: unnamed
+    2100002: white
+    2100004: blue
+    2100006: orange
+    2100008: black
+    2100010: darkblue
+    2300000: BeakBottom
+    2300002: BeakTop
+    2300004: BezierCurve_001
+    2300006: Body
+    2300008: EyeL
+    2300010: EyeR
+    2300012: FinL
+    2300014: FinR
+    2300016: FlipperL
+    2300018: FlipperR
+    2300020: Hat
+    2300022: HatFold
+    2300024: Head
+    2300026: Mesh
+    2300028: Mesh_001
+    2300030: NurbsCurve
+    2300032: Puff
+    2300034: PupilL
+    2300036: PupilR
+    2300038: Tummy
+    3300000: BeakBottom
+    3300002: BeakTop
+    3300004: BezierCurve_001
+    3300006: Body
+    3300008: EyeL
+    3300010: EyeR
+    3300012: FinL
+    3300014: FinR
+    3300016: FlipperL
+    3300018: FlipperR
+    3300020: Hat
+    3300022: HatFold
+    3300024: Head
+    3300026: Mesh
+    3300028: Mesh_001
+    3300030: NurbsCurve
+    3300032: Puff
+    3300034: PupilL
+    3300036: PupilR
+    3300038: Tummy
+    4300000: Mesh_001
+    4300002: Mesh
+    4300004: Tummy
+    4300006: Puff
+    4300008: FlipperR
+    4300010: FlipperL
+    4300012: PupilL
+    4300014: PupilR
+    4300016: EyeR
+    4300018: EyeL
+    4300020: BeakBottom
+    4300022: BeakTop
+    4300024: HatFold
+    4300026: Hat
+    4300028: FinR
+    4300030: NurbsCurve
+    4300032: FinL
+    4300034: BezierCurve_001
+    4300036: Head
+    4300038: Body
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
