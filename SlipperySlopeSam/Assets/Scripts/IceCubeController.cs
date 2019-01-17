@@ -18,7 +18,7 @@ public class IceCubeController : MonoBehaviour {
 	void Update () {
 
         float inc = Mathf.Sin(i * speed);
-        this.transform.position = initialPos + new Vector3(inc * distance, 0f, 0f);
+        this.transform.position = initialPos + new Vector3(0f, 0f, inc * distance);
         i += 0.1f;
 	}
 }

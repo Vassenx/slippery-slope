@@ -9,20 +9,20 @@ public class ProceduralGenerate : MonoBehaviour {
     [SerializeField]
     GameObject player;
 
-    private float oldXPos;
-    private float groundZPos = 0;
+    private float oldZPos;
+    private float groundXPos = 0;
 
 	void Start () {
-        oldXPos = player.transform.position.x;
+        oldZPos = player.transform.position.z;
     }
 	
 	void Update () {
 
-        if (player.transform.position.x >= oldXPos + 2)
+        if (player.transform.position.z >= oldZPos + 2)
         {
-            Instantiate(ground, new Vector3(oldXPos + 10, ground.transform.position.y, groundZPos), ground.transform.rotation);
-            groundZPos += Random.Range(-5, 5);
-            oldXPos = player.transform.position.x;
+            groundXPos = (float) Random.Range(-5, 5);
+            Instantiate(ground, new Vector3(groundXPos, ground.transform.position.y, oldZPos + 10), ground.transform.rotation);
+            oldZPos = player.transform.position.z;
         }
 	}
 }
