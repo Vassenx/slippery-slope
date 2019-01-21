@@ -33,9 +33,15 @@ public class PlayerController : MonoBehaviour {
 
         onGround = Physics.CheckSphere(this.transform.position, 0.2f, Ground, QueryTriggerInteraction.Ignore);
 
-        if (Input.GetButtonDown("Jump") && onGround)
+        if (Input.GetButtonDown("Jump") && onGround && rb != null)
         {
             rb.AddForce(Vector3.up * jumpSpeed, ForceMode.VelocityChange);
+        }
+
+        RaycastHit hit;
+        if (Physics.SphereCast(transform.position, 0.5f, -(transform.up), out hit, 0.1f, Ground))//yourDistanceToGroundYouWant, yourGroundLayers))
+        {
+            transform.rotation = Quaternion.LookRotation(Vector3.Cross(transform.right, hit.normal));
         }
     }
 
